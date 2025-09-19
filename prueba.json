@@ -1,0 +1,116 @@
+{
+  "Name": "prueba",
+  "CreationDate": "2025-9-19",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://cnmolins.miclubonline.net/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=edit-name",
+      "Value": "",
+      "Targets": [
+        "id=edit-name",
+        "name=name",
+        "xpath=//*[@id=\"edit-name\"]",
+        "xpath=//input[@id='edit-name']",
+        "xpath=//input",
+        "css=#edit-name"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=edit-name",
+      "Value": "44711",
+      "Targets": [
+        "id=edit-name",
+        "name=name",
+        "xpath=//*[@id=\"edit-name\"]",
+        "xpath=//input[@id='edit-name']",
+        "xpath=//input",
+        "css=#edit-name"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=edit-pass",
+      "Value": "",
+      "Targets": [
+        "id=edit-pass",
+        "name=pass",
+        "xpath=//*[@id=\"edit-pass\"]",
+        "xpath=//input[@id='edit-pass']",
+        "xpath=//div[2]/input",
+        "css=#edit-pass"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=edit-pass",
+      "Value": "damolto8",
+      "Targets": [
+        "id=edit-pass",
+        "name=pass",
+        "xpath=//*[@id=\"edit-pass\"]",
+        "xpath=//input[@id='edit-pass']",
+        "xpath=//div[2]/input",
+        "css=#edit-pass"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"user-login-form\"]/div",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"user-login-form\"]/div",
+        "xpath=//form/div",
+        "css=#user-login-form > div"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "id=edit-submit",
+      "Value": "",
+      "Targets": [
+        "id=edit-submit",
+        "name=op",
+        "xpath=//*[@id=\"edit-submit\"]",
+        "xpath=//button[@id='edit-submit']",
+        "xpath=//form/div/button",
+        "css=#edit-submit"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "linkText=Consulta el calendari complet",
+      "Value": "",
+      "Targets": [
+        "linkText=Consulta el calendari complet",
+        "xpath=//*[@id=\"block-gpa-piw-dirigidas-dirigidas-block\"]/fieldset/div/div/a",
+        "xpath=//ul[2]/li/div/section/fieldset/div/div/a",
+        "css=#block-gpa-piw-dirigidas-dirigidas-block > fieldset > div > div > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"calendar\"]/div/div/div/a[129]/div/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"calendar\"]/div/div/div/a[129]/div/span",
+        "xpath=//a[129]/div/span",
+        "css=#calendar > div > div > div > a.fc-event.fc-event-hori.fc-event-start.fc-event-end.6.250825171150 > div > span.fc-event-time"
+      ],
+      "Description": ""
+    }
+  ]
+}
