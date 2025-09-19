@@ -1,0 +1,27 @@
+name: Run UI.Vision Macro
+
+on:
+  workflow_dispatch: {} # ejecutar manual
+  schedule:
+    - cron: '0 7 * * *' # opcional: diario a las 07:00 UTC
+
+jobs:
+  ui-vision:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install UI.Vision CLI
+        run: |
+          npm install -g @ui-vision/cli
+
+      - name: Run macro
+        run: |
+          ui-vision run ./macro.json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-artifacts
+          path: |
+            output/**/*
